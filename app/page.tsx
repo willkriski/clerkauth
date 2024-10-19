@@ -1,11 +1,7 @@
 import { SignedOut, SignInButton, SignedIn, UserButton } from '@clerk/nextjs'
 import './globals.css'
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function Homepage() {
   return (
     <html lang="en">
       <body className="bg-gray-100 min-h-screen">
@@ -51,7 +47,6 @@ export default function RootLayout({
               </div>
             </div>
           </SignedOut>
-          {children}
         </main>
       </body>
     </html>

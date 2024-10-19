@@ -1,6 +1,6 @@
 "use client"
 import { UserButton } from '@clerk/nextjs'
-import { BarChart3, Users, DollarSign, ShoppingCart, Bell, CheckCircle } from 'lucide-react'
+import { BarChart3, Users, DollarSign, ShoppingCart, CheckCircle } from 'lucide-react'
 
 export default function Dashboard() {
   const metrics = [
